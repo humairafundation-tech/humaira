@@ -1,5 +1,7 @@
 import "./globals.css";
-import  Header  from "@/components/layout/Header.jsx";
+import Header from "@/components/layout/Header.jsx";
+import { Purpose } from "@/components/sections/Purpose";
+import { AreasOfFocus } from "@/components/sections/AreasOfFocus";
 
 export const metadata = {
   title: "Humaira Foundation",
@@ -12,6 +14,8 @@ export default function RootLayout({ children }) {
     <html lang="en" className={`scroll-smooth`}>
       <body className="bg-cream font-sans text-ink-text antialiased">
         <Header />
+        <Purpose />
+        <AreasOfFocus />
 
         <main>{children}</main>
       </body>
