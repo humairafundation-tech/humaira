@@ -24,4 +24,10 @@ export const site = {
     title: "Rooted in the places we work.",
     text: "Norsom ImpoEx works with natural resins and the people who harvest and prepare them. Humaira Foundation is our commitment to reinvest in those communities. We want local voices to help identify what is needed, support useful projects, and document the results with care.",
   },
+
+  howWeWork: {
+    eyebrow: "How we intend to work",
+    titleLines: ["Listen locally.", "Act responsibly.", "Share what changes."],
+    text: "Projects will be selected with input from people in the communities we serve. As the foundation develops, we will publish what each project set out to do, what was delivered, and what we learned. Our funding will come from the business; we are not asking visitors for donations on this site.",
+  },
 };
