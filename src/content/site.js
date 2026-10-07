@@ -30,4 +30,14 @@ export const site = {
     titleLines: ["Listen locally.", "Act responsibly.", "Share what changes."],
     text: "Projects will be selected with input from people in the communities we serve. As the foundation develops, we will publish what each project set out to do, what was delivered, and what we learned. Our funding will come from the business; we are not asking visitors for donations on this site.",
   },
+
+  impact: {
+    eyebrow: "03 / Impact updates",
+    title: "Progress you can follow.",
+    text: "This space will document projects and outcomes as work begins. We will share updates, photos where appropriate, and clear details about how each effort benefits the community.",
+    empty: {
+      title: "Our first updates are coming.",
+      text: "The foundation is in its early stage. We will publish verified project information here as initiatives are launched and completed.",
+    },
+  },
 };
