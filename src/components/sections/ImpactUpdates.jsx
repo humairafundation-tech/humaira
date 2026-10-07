@@ -32,7 +32,7 @@ export function ImpactUpdates() {
       <Container className="max-w-[1164px]">
         <div className="grid gap-6 lg:grid-cols-[20.625rem_1fr] lg:gap-x-[4.8rem]">
           <div>
-            <Eyebrow conntent={impact.eyebrow} />
+            <Eyebrow content="{impact.eyebrow}"/>
             <h2 className="mt-6 font-serif text-[2.375rem] leading-[1.1] tracking-[-0.03em] md:text-5xl lg:text-[3.375rem]">
               {impact.title}
             </h2>
