@@ -40,4 +40,11 @@ export const site = {
       text: "The foundation is in its early stage. We will publish verified project information here as initiatives are launched and completed.",
     },
   },
+
+  footer: {
+    name: "Humaira Foundation",
+    tagline:
+      "Giving back to communities in the regions where Norsom ImpoEx works.",
+    legal: "An initiative by Norsom ImpoEx",
+  },
 };
