@@ -1,5 +1,6 @@
 import "./globals.css";
 import Header from "@/components/layout/Header.jsx";
+import { Footer } from "@/components/layout/Footer";
 
 export const metadata = {
   title: "Humaira Foundation",
@@ -13,6 +14,7 @@ export default function RootLayout({ children }) {
       <body className="bg-cream font-sans text-ink-text antialiased">
         <Header />
         <main>{children}</main>
+        <Footer />
       </body>
     </html>
   );
