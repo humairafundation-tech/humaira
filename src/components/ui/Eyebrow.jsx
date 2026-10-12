@@ -2,7 +2,7 @@ import React from "react";
 
 function Eyebrow({ content }) {
   return (
-    <p className="text-xs font-bold uppercase tracking-[0.2em] text-gold">
+    <p className="text-xs font-bold uppercase tracking-[0.2em] text-gold-label">
       {content}
     </p>
   );
